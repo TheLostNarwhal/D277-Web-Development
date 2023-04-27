@@ -38,6 +38,12 @@ body{
     width: 100%;
     position: fixed;
 }
+.empty_space {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 250px;
+    border: 1px solid red;
+}
 .state {
     background-color: aquamarine;
     margin: 0 auto;

@@ -72,6 +72,9 @@ body{
     
     
 }
+.state_aside a {
+    text-decoration: none;
+}
 
 .state_container {
     display: block;
@@ -90,10 +93,13 @@ body{
 .other_container {
     display: flex;
     background-color: rgb(201, 124, 23);
-    height: 20%;
-    width: 60%;
+    height: 70%;
+    width: 70%;
     margin: 0 auto;
   
+}
+table, td {
+    border: 1px solid red;
 }
 
 footer {

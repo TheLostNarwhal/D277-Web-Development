@@ -60,25 +60,26 @@ body{
 }
 
 .state_aside {
-    display: flex;
+    display: block;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     height:90%;
-    justify-content: center;
     margin: 0px 50px;
     float: left;
     width: 40%;
     
     
     
+    
 }
 
 .state_container {
-    display: flex;
+    display: block;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     height: 99%;
     width: 99%;
+    
 }
 .other_info {
     display: grid;

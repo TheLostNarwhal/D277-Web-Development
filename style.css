@@ -46,7 +46,7 @@ body{
 .empty_space {
     display: grid;
     grid-template-columns: 1fr;
-    height: 250px;
+    height: 200px;
     
 }
 .state {
@@ -64,7 +64,7 @@ body{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     height:90%;
-    margin: 0px 50px;
+    margin: 0px auto;
     float: left;
     width: 40%;
     
@@ -81,12 +81,13 @@ body{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     height: 99%;
-    width: 99%;
+    width: 80%;
+    margin: 0 auto;
     
 }
 .other_info {
     display: grid;
-    height: 250px;
+    height: 240px;
     background-color: beige;
     padding-top: 20px;
 }
@@ -115,19 +116,38 @@ td, th {
 .last_info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 250px;
+    height: 307px;
     background-color: brown;
 
         
 
 }
 .last_info_img {
-display: block;
+display: flex;
 }
-#last_info_form {
-    background-color: white;
+.last_info_img img {
+    width: 70%;
+    height: 70%;
+    margin: auto auto;
+    position: relative;
+    border-radius: 10px;
 }
-
+.last_info_form {
+    margin: 0px 80px;
+   
+}
+#stay_updated {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 5px;
+    padding: 10px;
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+     
+}
 footer {
     display: block;
     background-color: blue;

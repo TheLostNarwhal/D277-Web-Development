@@ -121,6 +121,12 @@ td, th {
         
 
 }
+.last_info_img {
+display: block;
+}
+#last_info_form {
+    background-color: white;
+}
 
 footer {
     display: block;

@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
-
+/*index */
 nav{
     height: 50px;
     display : grid;
@@ -176,4 +176,31 @@ footer {
     width: 250px;
     height: 140px;
     margin: 10px auto;
+}
+
+/*City Template*/
+.helena_img {
+    width: 40%;
+    height: 40%;
+}
+
+.city_aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #168aad;
+    border-radius: 10px;
+    height:70%;
+    margin: 30px;
+    float: left;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.city_aside ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }

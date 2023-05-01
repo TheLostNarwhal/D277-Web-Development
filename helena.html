@@ -9,9 +9,9 @@
 </head>
 <body>
     <header>
-        <nav style="height: 145px;">
+        <nav style="height: 180px;">
             <div class="logo">
-                <img class="helena_img" src="images/city_images/helena_logo.png" alt="logo for city of helena">
+                <img class="helena_img" src="images/city_images/helena_logo.png" alt="logo for city of Helena">
 
             </div>
         
@@ -27,7 +27,7 @@
         </nav>
     </header>
     <main class="container">
-        <div class="empty_space">
+        <div class="empty_space" style="height: 270px;">
 
         </div>
         <section class="state">
@@ -88,17 +88,17 @@
             <div class="last_info_form">
                 
                 <form id="stay_updated">
-                    <p style="margin-bottom: 10px;"> Stay Updated with all Helena News!</p>
+                    <p style="margin-bottom: 10px;"> Stay Updated with all Montana News!</p>
                     <label for="first_name">First Name:</label>
-                    <input type="text" name="fname" id="lname"><br>
+                    <input type="text" name="fname" id="lname" placeholder="Hernan" required><br>
                     <label for="last_name">Last Name</label>
-                    <input type="text" name="lname" id="lname"><br>
+                    <input type="text" name="lname" id="lname" placeholder="Silva"><br>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email"><br>
+                    <input type="email" name="email" id="email" placeholder="email@domain.com"><br>
                     <label for="confirm_email">Confirm Email:</label>
-                    <input type="email" name="confirm_email" id="confirm_email" style="margin-bottom: 10px;"><br> 
+                    <input type="email" name="confirm_email" id="confirm_email" placeholder="email@domain.com" style="margin-bottom: 10px;"><br> 
                     <textarea rows="2" cols="10" name="question" placeholder=" Ask a Question!"></textarea>
-                    <input type="button" name="submit" value="Submit" style="width: 60px; margin: 10px auto;">
+                    <input type="button" name="submit" value="Submit" onclick="verify()" style="width: 60px; margin: 10px auto;">
                     
                     
                 </form>
@@ -116,6 +116,6 @@
     <footer>
         <div class="footer_img"><img src="images/state_images/montana_flag_v1.png" alt="montana flag"></div>
     </footer>
-    
+    <script src="script.js"></script>
 </body>
 </html>

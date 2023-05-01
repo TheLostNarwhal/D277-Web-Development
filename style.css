@@ -181,15 +181,19 @@ footer {
 
 /*City Template*/
 .helena_img {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 20%;
+}
+.billings_img {
+    width: 130px;
+    height: 140px;
 }
 
 .city_aside {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #168aad;
+    background-color: #cbd4d6;
     border-radius: 10px;
     height:70%;
     margin: 30px;
@@ -206,5 +210,5 @@ footer {
     align-items: center;
 }
 .city_aside h1 {
-    color: #ffb803;
+    color: #d89c03;
 }
